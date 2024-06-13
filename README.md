@@ -11,6 +11,12 @@ In short, `onPreFling` always receives zero available Velocity after I stop drag
 Here is a video of how it looks
 like: https://drive.google.com/file/d/1ywykvopiEvzPfkEcrftyVay4dmqf_FG5/view?usp=sharing
 
+
+
+https://github.com/antslava/ComposeScrollIssueOnZebraDevices/assets/506456/d4a84ad8-4a51-4a81-b787-22024b8b608b
+
+
+
 ## Root cause
 
 On Zebra devices, the delay between `MotionEvent.ACTION_MOVE` and `MotionEvent.ACTION_UP` is
@@ -63,6 +69,12 @@ But I still need to check it.
 
 Video with
 workaround: https://drive.google.com/file/d/1AHR-68z_0B-yvcx4oG9ucYTZxptxNTwm/view?usp=sharing
+
+
+
+https://github.com/antslava/ComposeScrollIssueOnZebraDevices/assets/506456/25b0b2af-9e01-4556-bb83-08d51a2393b7
+
+
 
 ### Logs
 
