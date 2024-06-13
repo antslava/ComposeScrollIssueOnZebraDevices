@@ -3,6 +3,8 @@
 Demo project to show scrolling issues on Zebra devices like MC18 and PS20.
 This issue is reproducible on Android 5, 9, and 11.
 
+Google issue tracker: https://issuetracker.google.com/issues/347026213
+
 ## Issue
 
 When scrolling a list, the Velocity of the scroll is not calculated correctly.
